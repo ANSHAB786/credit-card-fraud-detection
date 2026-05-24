@@ -1,0 +1,102 @@
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+ENV/
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ========================
+# Jupyter Notebook
+# ========================
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+*.nbconvert.py
+
+# ========================
+# Data Files (Large / Sensitive)
+# ========================
+*.csv
+*.tsv
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.pkl
+*.pickle
+*.db
+*.sqlite
+*.json.gz
+
+# Keep the artifacts folder structure but ignore generated data files
+artifacts/*.csv
+artifacts/*.pkl
+
+# ========================
+# Dataset (Never commit raw data)
+# ========================
+creditcard.csv
+data/
+
+# ========================
+# Model Files (Can be large)
+# ========================
+*.joblib
+*.model
+*.bin
+*.pt
+*.pth
+*.onnx
+models/
+
+# ========================
+# Environment & Config
+# ========================
+.env
+.env.*
+*.cfg
+*.ini
+config/secrets.yaml
+
+# ========================
+# IDE & Editor
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# Logs & Reports
+# ========================
+*.log
+logs/
+reports/
+
+# ========================
+# SHAP / MLflow / Experiment Tracking
+# ========================
+mlruns/
+mlflow/
+shap_cache/
+
+# ========================
+# OS Files
+# ========================
+.DS_Store
+Desktop.ini
+catboost_info/
